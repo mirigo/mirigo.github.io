@@ -1,340 +1,261 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
-    <!-- Title -->
     <title>Errol Owl</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Errol Owl - Welcome Page">
+    <meta name="keywords" content="HTML5, bootstrap, mobile, app, landing, ios, android, responsive">
 
-    <!-- Favicon -->
-    <link rel="icon" href="img/errol-img/ember-fav.png">
+    <!-- Font -->
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500" rel="stylesheet">
 
-    <!-- Core Stylesheet -->
-    <link href="style.css" rel="stylesheet">
-    <link href="styleErrol.css" rel="stylesheet">
-
-    <!-- Responsive CSS -->
-    <link href="css/responsive.css" rel="stylesheet">
-    <link href="css/responsiveErrol.css" rel="stylesheet">
-
-    <!-- Captcha -->
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Themify Icons -->
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <!-- Owl carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- Main css -->
+    <!--link href="css/style.css" rel="stylesheet"-->
+    <link href="css/styleErrol.css" rel="stylesheet">
 </head>
 
-<body>
-    <!-- Preloader Start -->
-    <div id="preloader">
-        <div class="colorlib-load"></div>
+<body data-spy="scroll" data-target="#navbar" data-offset="30">
+
+    <!-- Nav Menu -->
+
+    <div class="nav-menu fixed-top" style="background-color: #EEEFEE;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-dark navbar-expand-lg" >
+                        <a class="navbar-brand" href="index.html"><img src="images/EmberLogo_Small.png" class="img-fluid" alt="logo"></a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+                        <div class="collapse navbar-collapse" id="navbar">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item"> <a class="nav-link active" style="color: #522F7D;" href="#home"><b>HOME</b></b><span class="sr-only">(current)</span></a> </li>
+                                <li class="nav-item"> <a class="nav-link" style="color: #522F7D;" href="#about"><b>ABOUT</b></a> </li>
+                                <li class="nav-item"> <a class="nav-link" style="color: #522F7D;" href="#features"><b>FEATURES</b></a> </li>
+                                <!--li class="nav-item"> <a class="nav-link" href="#pricing">PRICING</a> </li-->
+                                <li class="nav-item"> <a class="nav-link" style="color: #522F7D;" href="#contact"><b>CONTACT</b></a> </li>
+                                <li class="nav-item"><a href="#demo" class="btn btn-primary my-3 my-sm-0 ml-lg-3">Ask for a demo</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <!-- ***** Header Area Start ***** -->
-    <header class="header_area animated">
-        <div class="container-fluid">
-            <div class="row align-items-center">
-                <!-- Menu Area Start -->
-                <div class="col-12 col-lg-10">
-                    <div class="menu_area">
-                        <nav class="navbar navbar-expand-lg navbar-light">
-                            <!-- Logo -->
-                            <a class="navbar-brand" href="#"><img width="80%" src="img/errol-img/Ember_Logo.png" alt="Ember"></a>
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ca-navbar" aria-controls="ca-navbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                            <!-- Menu Area -->
-                            <div class="collapse navbar-collapse" id="ca-navbar">
-                                <ul class="navbar-nav ml-auto" id="nav">
-                                    <li class="nav-item active" ><a class="nav-link" href="#home" style="color: #F03D43">Home</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#about" style="color: #F03D43">About</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#features" style="color: #F03D43">Features</a></li>
-                                    <!--li class="nav-item"><a class="nav-link" href="#screenshot" style="color: #F03D43">Screenshot</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#pricing" style="color: #F03D43">Pricing</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#testimonials" style="color: #F03D43">Testimonials</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#team" style="color: #F03D43">Team</a></li-->
-                                    <li class="nav-item"><a class="nav-link" href="#contact" style="color: #F03D43">Contact</a></li>
-                                </ul>
-                                <div class="sing-up-buttonE d-lg-none">
-                                    <a href="#contact">Ask for a Demo</a>
-                                </div>
-                            </div>
-                        </nav>
-                    </div>
-                </div>
-                <!-- Signup btn -->
-                <div class="col-12 col-lg-2">
-                    <div class="sing-up-buttonE d-none d-lg-block">
-                        <a href="#contact">Ask for a Demo</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+
+    <!--header class="bg-gradient" id="home"-->
+     <header id="home">
+     	<div class="section">
+
+	        <div class="container">
+	            <div class="row" style="padding-bottom: -50px;">
+	            	
+	                <div class="col-md-6 d-flex align-items-center">
+	                	
+	                    <ul class="list-unstyled">
+	                    	<li class="media">
+	                    		<div class="media-body">
+	                    			<img src="images/Logo.png" alt="Welcome to Errol Owl" style="width: 95%; text-align: left;" class="img-fluid" >
+	                    		</div>
+	                    	</li><br>
+	                        <li class="media ">
+	                            
+	                            <div class="media-body">
+	                                
+	                                <p style="color:#593489;">Ember Real Results Online Learning Platform (Errol Owl) is an easy and accessible way to ensure that knowledge is retained within your organisation.</p>
+                   
+	                            </div>
+	                        </li>
+	                        <li class="media my-4">
+	                            
+	                            <div >
+	                               
+	                            
+                   					<p style="color:#593489;" class="errolp"> With 70-80% of learning being forgotten within 2 weeks, Errol will provide you with the means to ensure that this knowledge is retained and increase the effectiveness of your learning solutions.
+	                            
+	                            </div>
+	                        </li>
+	                        <li class="media my-4">
+	                            
+	                            <div style="padding-left: 90px;">
+	                               
+	                            
+                   					<a href="https://www.errolowl.com/learners/" target="BLANK" class="btn btn-primary">Start Quiz</a>
+                   					<a href="https://www.errolowl.com/manager/" target="BLANK" class="btn btn-primary">Check performance</a>
+	                            
+	                            </div>
+	                        </li>
+	                    </ul>
+	                </div>
+	                <div class="col-md-6">
+	                    <img src="images/Owl_Hey.png" alt="Hey!" style="width: 70%" class="img-fluid">
+	                </div>
+
+	            </div>
+
+	        </div>
+
+	    </div>
+    <!-- // end .section -->
     </header>
-    <!-- ***** Header Area End ***** -->
 
-    <!-- ***** Wellcome Area Start ***** -->
-    <section class="wellcome_areaE clearfix" id="home">
-        <div class="container h-100">
-            <div class="row h-100 align-items-center">
-                <div class="col-12 col-md">
-                    <div class="wellcome-headingE">
-                        <img src="img/errol-img/ErrolLogo_Home.png"  alt=""><br><br>
-                        <h4>Ember Real Results Online Learning Platform (Errol Owl) is an
-                            easy and accessible way <br>to ensure that knowledge is retained
-                            within your organisation.</h4><br>
-                        <p>With 70-80% of learning being forgotten within 2 weeks, Errol will provide you with
-                            the means to <br>ensure that this knowledge is retained and increase the effectiveness of
-                            your learning solutions.</p>
-                    </div>
-                    <div class="get-start-areaE" style="margin-top: -110px;">
-                        <!-- Form Start -->
-                        <a href="https://www.errolowl.com/manager/">
-                            <input type="button"  class="submit" value="Manager Access" >
-                        </a>
-                        <a href="https://www.errolowl.com/learners/">
-                            <input type="button" class="submit" value="Learner Access">
-                        </a>
-                        <!-- Form End -->
-                    </div>
-                </div>
+    <div class="section pt-0 errol-bg" id="about" style="background-image: url('images/GradientBG.png'); background-size: 100%;">
+
+	        <div class="container">
+	            <div class="row ">
+	            	<div class="col-md-6">
+	                    <img src="images/Mobile.png" alt="Hey!" style="width: 90%" class="img-fluid">
+	                </div>
+
+	                <div class="col-md-6 d-flex align-items-center">
+	                	
+	                    <ul class="list-unstyled">
+	                    	<li class="media">
+	                    		
+	                    	</li><br>
+	                        <li class="media ">
+	                            
+	                            <div class="media-body">
+	                                
+	                                <h1 style="color: #EA2C3C;"><b>Errol on your mobile</b></h1>
+                   
+	                            </div>
+	                        </li>
+	                        <li class="media my-4">
+	                            
+	                            <div >
+	                               
+	                            	<p style="color:#ffffff;">Now you can keep your learning on track whatever you go! It's easy, just download the app from Google Play or Apple store and you will be ready to log in and answer your daily quiz!</p>
+	                            
+	                            </div>
+	                        </li>
+	                        <li class="media my-4">
+	                            
+	                            <div class="my-4" style="padding-left: 60px;">
+
+                    				<a href="https://itunes.apple.com/gb/app/errol-owl/id1421106298?mt=8" target="BLANK" class="btn btn-light"><img src="images/appleicon.png" alt="icon"> App Store</a>
+                    				<a href="https://play.google.com/store/apps/details?id=com.errolowl.errolowlapp" target="BLANK" class="btn btn-light"><img src="images/playicon.png" alt="icon"> Google play</a>
+                				</div>
+	                        </li>
+	                        
+	                    </ul>
+	                </div>
+	                
+	            </div>
+
+	        </div>
+
+	    </div>
+
+    <div class="section" id="features">
+        <div class="container">
+            <div class="section-title">
+                
+                <h3>Features for you</h3>
             </div>
-        </div>
-        <!-- Welcome thumb -->
-        <div class="welcome-thumbE wow fadeInDown" data-wow-delay="0.5s">
-            <img src="img/errol-img/Owl_Email.png" alt="">
-        </div>
-    </section>
-    <!-- ***** Wellcome Area End ***** -->
 
-    <!-- ***** Special Area Start ***** -->
-    <section class="special-area bg-white section_padding_50" id="about">
-
-        <!-- Special Description Area -->
-        <div class="special_description_area mt-100">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-5">
-                        <div class="special_description_imgE">
-                            <img src="img/errol-img/Mobile.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-7 col-xl-5 ml-xl-auto">
-                        <div class="special_description_contentE">
-                            <h2>Errol OWL in your mobile!</h2>
-                            <p>Now you can keep your learning on track whatever you go! It's easy, just download the app from Google Play or Apple store and you will be ready to log in and answer your daily quiz!</p>
-                            <div class="app-download-area">
-                                <div class="app-download-btnE wow fadeInUp" data-wow-delay="0.2s">
-                                    <!-- Google Store Btn -->
-                                    <a href="https://play.google.com/store/apps/details?id=com.errolowl.errolowlapp">
-                                        <i class="fa fa-android"></i>
-                                        <p class="mb-0"><span>available on</span> Google Store</p>
-                                    </a>
-                                </div>
-                                <div class="app-download-btnE wow fadeInDown" data-wow-delay="0.4s">
-                                    <!-- Apple Store Btn -->
-                                    <a href="https://itunes.apple.com/gb/app/errol-owl/id1421106298?mt=8">
-                                        <i class="fa fa-apple"></i>
-                                        <p class="mb-0"><span>available on</span> Apple Store</p>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="img-gallery owl-carousel owl-theme">
+                <img src="images/Features-easy.png" alt="Easy">
+                <img src="images/Features-flexible.png" alt="flexible">
+                <img src="images/Features-knowledge.png" alt="knowledge">
+                
             </div>
-        </div>
-    </section>
-    <!-- ***** Special Area End ***** -->
 
-    <!-- ***** Awesome Features Start ***** -->
-    <section class="awesome-feature-area bg-white section_padding_0_50 clearfix" id="features">
+        </div>
+
+    </div>
+    <!-- // end .section -->
+
+    <div class="section" id="demo">
+
         <div class="container">
             <div class="row">
-                <div class="col-12">
-                    <!-- Heading Text -->
-                    <div class="section-headingE text-center">
-                        <h2>Features</h2><br><br><br>
-                        <!--div class="line-shape"></div-->
-                    </div>
+                <div class="col-lg-6 offset-lg-6">
+                   
                 </div>
             </div>
-
-            <div class="row">
-                <!-- Single Feature Start -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-feature">
-                        <i class="ti-user" aria-hidden="true"></i>
-                        <h5>Flexible and fun to use</h5>
-                        <p>Firmly embeds the knowledge in a fun and efficient way. It provides regular quiz style questions to learners to see what learning they retained and remind them of essential points. The questions can include images, audio, video to help enhace engagement and include links to further learning resources within the feedback.</p>
-                    </div>
-                </div>
-                <!-- Single Feature Start -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-feature">
-                        <i class="ti-check-box" aria-hidden="true"></i>
-                        <h5>Easy to use</h5>
-                        <p>It is accessible across all browsers and on Android and IOS devices via the Errol app. After login, Errol Owl will serve the questions for you to answer.</p>
-                    </div>
-                </div>
-                <!-- Single Feature Start -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-feature">
-                        <i class="ti-bar-chart" aria-hidden="true"></i>
-                        <h5>Detects knowledge gaps</h5>
-                        <p>Struggle getting meaningful insights? Errol has an extensive reporting dashboard allowing you to easily spot knowledge gaps and areas of development. </p>
-                    </div>
-                </div>
+            <div class="" style="margin-bottom: -80px;">
+                <img src="images/Owl_SignUp.png" alt="Ask your demo!" class="img-fluid">
             </div>
-
         </div>
-    </section>
-    <!-- ***** Awesome Features End ***** -->
 
-    <!-- ***** Video Area Start ***** -->
-    <!--div class="video-section">
+    </div>
+    <!-- // end .section -->
+
+     <div class="section errol-bg" id="contact" style="margin-top: -70px;">
+
         <div class="container">
             <div class="row">
-                <div class="col-12"-->
-                    <!-- Video Area Start -->
-                    <!--div class="video-area" style="background-image: url(img/bg-img/video.jpg);">
-                        <div class="video-play-btn">
-                            <a href="https://www.youtube.com/watch?v=f5BBJ4ySgpo" class="video_btn"><i class="fa fa-play" aria-hidden="true"></i></a>
-                        </div>
+                <div class="col-lg-6 text-center text-lg-center" style="">
+                    <p class="mb-2 contact"> <span class="ti-location-pin mr-2"></span> 60 Trafalgar Square, London, WC2N 5DS</p><br>
+                    <div class=" d-block d-sm-inline-block">
+                        <p class="mb-2 contact">
+                            <span class="ti-email mr-2"></span> <a class="mr-4 contact" href="mailto: info@emberrealresults.com"> info@emberrealresults.com</a>
+                        </p>
+                    </div><br><br>
+                    <div class="d-block d-sm-inline-block">
+                        <p class="mb-2 contact">
+                            <span class="ti-headphone-alt mr-2"></span> <a class="mr-4 contact" href="tel:020 7871 9797">+44 (0)20 7871 9797</a>
+                        </p><br>
+                        <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/errol-owl/" target="BLANK"><span class="ti-linkedin"></span></a>
+                        <a href="https://twitter.com/ErrolOwlERR" target="BLANK"><span class="ti-twitter-alt"></span></a>
+                        <a href="https://youtu.be/nDKqRQPu8ds" target="BLANK"><span class="ti-youtube"></span></a>
                     </div>
-                </div>
-            </div>
-        </div>
-    </div-->
-    <!-- ***** Video Area End ***** -->
+                    </div>
 
-    <!-- ***** Contact Us Area Start ***** -->
-    <section class="footer-contact-areaE section_padding_50 clearfix" id="contact">
+                </div>
+           
+	            <div class="col-lg-6 text-center text-lg-left">
+	            	
+	                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.3229432431867!2d-0.13062538355486486!3d51.507290979635094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604ce2d9eee15%3A0x30d0086092bf5417!2s60+Trafalgar+Square%2C+St.+James's%2C+London+WC2N+5DS%2C+Ujedinjeno+Kraljevstvo!5e0!3m2!1shr!2shr!4v1526309775928" width="500" height="180" frameborder="0" style="border:3" allowfullscreen></iframe>
+	            
+	    		</div>
+	    	</div>
+    	</div>
+    </div>
+    <!-- // end .section -->
+
+    <div class="section" id="followus">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <!-- Heading Text  -->
-                    <div class="section-headingE">
-                        <h2>Get in touch!</h2>
-                        <!--div class="line-shape"></div-->
-                    </div>
-                    <div class="footer-textE">
-                        <p>Take a look on how Errol can help your team to improve their learning retention! Just fill the form and we will contact you to set a Demo</p>
-                    </div>
-                    <div class="address-textE">
-                        <p><span>Address:</span> Ember Group Limited, 60 Trafalgar Square, <br>London, WC2N 5DS</p>
-                    </div>
-                    <div class="phone-textE">
-                        <p><span>Phone:</span> +44 (0)20 7871 9797</p>
-                    </div>
-                    <div class="email-textE">
-                        <p><span>Email:</span> info@emberrealresults.com</p>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <!-- Form Start-->
-                    <div class="contact_from" >
-                        <form class="contact__form" method="post" action="mail.php">
-                            <!-- Message Input Area Start -->
-                            <div class="contact_input_areaE">
-                                <div class="row">
-                                    <!-- Single Input Area Start -->
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" name="nameE" id="nameE" placeholder="Your Name *" required>
-                                        </div>
-                                    </div>
-                                    <!-- Single Input Area Start -->
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <input type="email" class="form-control" name="emailE" id="emailE" placeholder="Your E-mail *" required>
-                                        </div>
-                                    </div>
-                                    <!-- Single Input Area Start -->
-                                    <div class="col-12">
-                                        <div class="form-group">
-                                            <textarea name="messageE" class="form-control" id="messageE" cols="30" rows="4" placeholder="Your Message *" required></textarea>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 g-recaptcha" data-sitekey="6LfI7pwUAAAAADqtK9IgXNx0MZkXEsRQgo9q2nsN">
+                <div class="col-lg-12 text-lg-center">
+                    <a href="https://www.emberrealresults.com/"><img src="images/Ember_Logo.png" alt="Ember" ></a>
 
-                                    </div>
-                                    <br/><br/>
-
-                                        <!-- Single Input Area Start -->
-                                    <div class="col-12">
-                                        <br/> <button type="submit" class="btn submit-btnE">Send Now</button>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Message Input Area End -->
-                        </form>
-                    </div>
                 </div>
-            </div>
-            <div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" style="margin-top: -110px" class="vc_row wpb_row vc_row-fluid map-header vc_custom_1523517486866 mpc-row" data-offset=""><div class="vc_column_wrapper clearfix"><div class="vc_col-sm-12  wpb_column vc_column_container   list-none     text-align-none  text-rp-left mpc-column" data-column-id="mpc_column-915cab59ae5abb5"><div class="vc_column-inner ">
-                <div class="wpb_wrapper">
-                    <div class="wpb_gmaps_widget wpb_content_element">
-                        <div class="wpb_wrapper">
-                            <div class="wpb_map_wraper">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.3229432431867!2d-0.13062538355486486!3d51.507290979635094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604ce2d9eee15%3A0x30d0086092bf5417!2s60+Trafalgar+Square%2C+St.+James's%2C+London+WC2N+5DS%2C+Ujedinjeno+Kraljevstvo!5e0!3m2!1shr!2shr!4v1526309775928" width="500" height="180" frameborder="0" style="border:3" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </div>
-    </section>
-    <!-- ***** Contact Us Area End ***** -->
+                
+             </div>   
+        </div>         
+    </div>
+    <!-- // end .section -->
 
-    <!-- ***** Footer Area Start ***** -->
-    <footer class="footer-social-iconE text-center section_padding_70 clearfix">
-        <!-- footer logo -->
-        <div class="footer-textE">
-            <!--h2>Ember Real Results</h2-->
-            <img src="img/errol-img/Ember_Logo.png" alt="Ember" >
-        </div>
-        <!-- social icon-->
-        <div class="footer-social-iconE">
-            <a href="https://www.linkedin.com/in/errol-owl/"><i class="active fa fa-linkedin" aria-hidden="true"></i></a>
-            <a href="https://twitter.com/ErrolOwlERR"><i class="active fa fa-twitter" aria-hidden="true"></i></a>
-            <a href="https://www.youtube.com/channel/UCgG3HWQfhThhufrHYDqpCfw/featured"> <i class="active fa fa-youtube" aria-hidden="true"></i></a>
-            <!--a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a-->
-        </div>
-        <div class="footer-menuE">
-            <nav>
-                <ul>
-                    <!--li><a href="#">About</a></li-->
-                    <li><a href="https://www.emberrealresults.com/terms-and-conditions/">Terms &amp; Conditions</a></li>
-                    <li><a href="https://www.emberrealresults.com/privacy-policy/">Privacy Policy</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-        <!-- Foooter Text-->
-        <div class="copyright-textE">
-            <!-- ***** Removing this text is now allowed! This template is licensed under CC BY 3.0 ***** -->
-            <p>Copyright ©2019  Ember</p>
-        </div>
+    <footer class=" text-center" style="margin-bottom: 30px;">
+        <!-- Copyright removal is not prohibited! -->
+        <p class="mb-2"><small>COPYRIGHT © 2019. ALL RIGHTS RESERVED. Ember Group </small></p>
+
+        <small>
+           
+            <a style="color: #F03D43;" href="https://www.emberrealresults.com/terms-and-conditions/" class="m-2">TERMS &amp; CONDITIONS</a>
+            <a style="color: #F03D43;" href="https://www.emberrealresults.com/privacy-policy/" class="m-2">PRIVACY POLICY</a>
+        </small>
     </footer>
-    <!-- ***** Footer Area Start ***** -->
 
-    <!-- Jquery-2.2.4 JS -->
-    <script src="js/jquery-2.2.4.min.js"></script>
-    <!-- Popper js -->
-    <script src="js/popper.min.js"></script>
-    <!-- Bootstrap-4 Beta JS -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- All Plugins JS -->
-    <script src="js/plugins.js"></script>
-    <!-- Slick Slider Js-->
-    <script src="js/slick.min.js"></script>
-    <!-- Footer Reveal JS -->
-    <script src="js/footer-reveal.min.js"></script>
-    <!-- Active JS -->
-    <script src="js/active.js"></script>
-    <script src="main.js"></script>
+    <!-- jQuery and Bootstrap -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Plugins JS -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+
 </body>
 
 </html>
