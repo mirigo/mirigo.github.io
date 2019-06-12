@@ -101,6 +101,7 @@ a.contact {
     font-weight: 500;
     padding: 0.6rem 2rem;
     border: 0;
+    text-align: left;
 }
 
 
@@ -110,7 +111,7 @@ a.contact {
 .btn-primary:not([disabled]):not(.disabled).active,
 .btn-primary:not([disabled]):not(.disabled):active,
 .show>.btn-primary.dropdown-toggle {
-    background-image: linear-gradient( 122deg, #52307E 0%, #DF2A39 100%);
+    background-image: linear-gradient( 122deg, #DF2A39 0%, #DF2A39 100%);
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.3);
     color: #FFF;
 }
@@ -203,7 +204,7 @@ a.contact {
     }
     .navbar-nav>.nav-item>.nav-link.active:after {
         content: "";
-        border-bottom: 2px solid #DF2A39;
+        border-bottom: 0px solid #FFFF;
         left: 1rem;
         right: 1rem;
         bottom: 5px;
@@ -221,6 +222,67 @@ a.contact {
     }
 }
 
+/* FEATURES
+----------------------*/
+
+.gradient-fill:before {
+    color: #fc73b4;
+    background: -moz-linear-gradient(top, #DF2A39 0%, #DF2A39 100%);
+    background: -webkit-linear-gradient(top, #DF2A39 0%, #DF2A39 100%);
+    background: linear-gradient(to bottom, #v 0%, #DF2A39 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.card.features {
+    border: 0;
+    border-radius: 3px;
+    box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.04);
+    transition: all 0.3s ease;
+}
+
+@media (max-width:991px) {
+    .card.features {
+        margin-bottom: 2rem;
+    }
+    [class^="col-"]:last-child .card.features {
+        margin-bottom: 0;
+    }
+}
+
+.card.features:before {
+    content: "";
+    position: absolute;
+    width: 3px;
+    color: #fc73b4;
+    background: -moz-linear-gradient(top, #DF2A39 0%, #DF2A39 100%);
+    background: -webkit-linear-gradient(top, #DF2A39 0%, #DF2A39 100%);
+    background: linear-gradient(to bottom, #DF2A39 0%, #DF2A39 100%);
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.card-text {
+    font-size: 14px;
+}
+
+.card.features:hover {
+    transform: translateY(-3px);
+    -moz-box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.08);
+    -webkit-box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.08);
+}
+
+.box-icon {
+    box-shadow: 0px 0px 43px 0px rgba(0, 0, 0, 0.14);
+    padding: 10px;
+    width: 70px;
+    border-radius: 3px;
+    margin-bottom: 1.5rem;
+    background-color: #FFF;
+}
 
 /* HERO
 ----------------------*/
